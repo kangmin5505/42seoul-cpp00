@@ -1,1 +1,1 @@
-# 42soule-cpp00
+# 42seoul-cpp00
