@@ -6,7 +6,7 @@
 /*   By: kangkim <kangkim@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/24 11:17:47 by kangkim           #+#    #+#             */
-/*   Updated: 2022/03/24 12:41:58 by kangkim          ###   ########.fr       */
+/*   Updated: 2022/03/24 12:56:58 by kangkim          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,7 @@ Account::~Account(void)
 	std::cout << "amount:" << _amount << ";";
 	std::cout << "closed" << std::endl;
 	--_nbAccounts;
-	_totalAmount = _amount;
+	_totalAmount -= _amount;
 } 
 
 void Account::makeDeposit(int deposit) {
