@@ -6,7 +6,7 @@
 /*   By: kangkim <kangkim@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 20:00:00 by kangkim           #+#    #+#             */
-/*   Updated: 2022/03/24 01:02:55 by kangkim          ###   ########.fr       */
+/*   Updated: 2022/03/25 17:12:03 by kangkim          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,8 +66,8 @@ void PhoneBook::print_detail_contact(const int idx) {
 	std::cout << "First name     : " << contact.get_first_name() << std::endl;
 	std::cout << "Last name      : " << contact.get_last_name() << std::endl;
 	std::cout << "Nickname       : " << contact.get_nickname() << std::endl;
-	std::cout << "Phone number   : " << contact.get_first_name() << std::endl;
-	std::cout << "Darkest secret : " << contact.get_first_name() << std::endl;
+	std::cout << "Phone number   : " << contact.get_phone_number() << std::endl;
+	std::cout << "Darkest secret : " << contact.get_darkest_secret() << std::endl;
 }
 
 void PhoneBook::search(void) {
